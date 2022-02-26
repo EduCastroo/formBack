@@ -4,50 +4,6 @@ namespace Cadastro.API.Model
 {
     public class Usuario
     {
-        public Usuario(){
-            
-        }
-    public Usuario(string razSocCad, string endCad, string cidadeCad, string socioCad, string cpf1Cad, string cpf2Cad, string end2Cad, string data, string cnpj, string inscMun, string fone2, string nomeFin, string emailFin, string contMv, int numero, string rua, string cidade, string conta, int op, string favorecido, bool radio1, bool radio3, string textarea5, bool radio7, bool radio8, bool radio9, bool radio10, bool radio11, bool radio12, bool radio13, bool radio14, string textarea15, string textarea16, bool radio18, string textarea19, string data2, string rgRep) 
-    {
-    this.razSocCad = razSocCad;
-    this.endCad = endCad;
-    this.cidadeCad = cidadeCad;
-    this.socioCad = socioCad;
-    this.cpf1Cad = cpf1Cad;
-    this.cpf2Cad = cpf2Cad;
-    this.end2Cad = end2Cad;
-    this.data = data;
-    this.cnpj = cnpj;
-    this.inscMun = inscMun;
-    this.fone2 = fone2;
-    this.nomeFin = nomeFin;
-    this.emailFin = emailFin;
-    this.contMv = contMv;
-    this.numero = numero;
-    this.rua = rua;
-    this.cidade = cidade;
-    this.conta = conta;
-    this.op = op;
-    this.favorecido = favorecido;
-    this.radio1 = radio1;
-    this.radio3 = radio3;
-    this.textarea5 = textarea5;
-    this.radio7 = radio7;
-    this.radio8 = radio8;
-    this.radio9 = radio9;
-    this.radio10 = radio10;
-    this.radio11 = radio11;
-    this.radio12 = radio12;
-    this.radio13 = radio13;
-    this.radio14 = radio14;
-    this.textarea15 = textarea15;
-    this.textarea16 = textarea16;
-    this.radio18 = radio18;
-    this.textarea19 = textarea19;
-    this.data2 = data2;
-    this.rgRep = rgRep;
-   
-        }
 
         [Key]
         public int Id { get; set; }

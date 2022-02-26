@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\eduardo.lima\\Desktop\\formCsharpVS\\Cadastro.API\\Cadastro.API.csproj": {}
+    "C:\\Users\\eduardo.lima\\Desktop\\formBack\\Cadastro.API\\Cadastro.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\eduardo.lima\\Desktop\\formCsharpVS\\Cadastro.API\\Cadastro.API.csproj": {
+    "C:\\Users\\eduardo.lima\\Desktop\\formBack\\Cadastro.API\\Cadastro.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\eduardo.lima\\Desktop\\formCsharpVS\\Cadastro.API\\Cadastro.API.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo.lima\\Desktop\\formBack\\Cadastro.API\\Cadastro.API.csproj",
         "projectName": "Cadastro.API",
-        "projectPath": "c:\\Users\\eduardo.lima\\Desktop\\formCsharpVS\\Cadastro.API\\Cadastro.API.csproj",
+        "projectPath": "C:\\Users\\eduardo.lima\\Desktop\\formBack\\Cadastro.API\\Cadastro.API.csproj",
         "packagesPath": "C:\\Users\\eduardo.lima\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\eduardo.lima\\Desktop\\formCsharpVS\\Cadastro.API\\obj\\",
+        "outputPath": "C:\\Users\\eduardo.lima\\Desktop\\formBack\\Cadastro.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduardo.lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +54,10 @@
               "target": "Package",
               "version": "[5.0.14, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.14, )"
@@ -61,7 +66,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.14, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
