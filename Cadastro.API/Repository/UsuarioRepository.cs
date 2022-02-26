@@ -17,7 +17,7 @@ namespace Cadastro.API.Repository
             throw new System.NotImplementedException();
         }
 
-        public bool Excluir(int id)
+        public bool Excluir(long id)
         {
             var obj = this.Obter(id);
             if(obj == null)
@@ -40,7 +40,7 @@ namespace Cadastro.API.Repository
             return _context.Usuarios.ToList();
         }
 
-        public Usuario Obter(int id)
+        public Usuario Obter(long id)
         {
             return _context.Usuarios.Where(a => a.Id == id).FirstOrDefault();
         }

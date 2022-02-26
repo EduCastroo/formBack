@@ -30,7 +30,7 @@ namespace Cadastro.API.Controllers
 
         // GET: api/Usuarios/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        public async Task<ActionResult<Usuario>> GetUsuario(long id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
 
@@ -45,7 +45,7 @@ namespace Cadastro.API.Controllers
         // PUT: api/Usuarios/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> PutUsuario(long id, Usuario usuario)
         {
             if (id != usuario.Id)
             {
@@ -87,7 +87,7 @@ namespace Cadastro.API.Controllers
 
         // DELETE: api/Usuarios/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUsuario(int id)
+        public async Task<IActionResult> DeleteUsuario(long id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             if (usuario == null)
@@ -101,7 +101,7 @@ namespace Cadastro.API.Controllers
             return NoContent();
         }
 
-        private bool UsuarioExists(int id)
+        private bool UsuarioExists(long id)
         {
             return _context.Usuarios.Any(e => e.Id == id);
         }

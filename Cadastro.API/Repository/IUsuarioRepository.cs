@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Cadastro.API.Model;
 
 namespace Cadastro.API.Repository
@@ -10,8 +7,8 @@ namespace Cadastro.API.Repository
     {
         public Usuario Incluir(Usuario obj);
         public Usuario Alterar(Usuario obj);
-        public bool Excluir(int id);
+        public bool Excluir(long id);
         public IEnumerable<Usuario> Listar();
-        public Usuario Obter(int id);
+        public Usuario Obter(long id);
     }
 }
