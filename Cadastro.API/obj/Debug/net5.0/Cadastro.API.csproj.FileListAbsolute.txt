@@ -211,4 +211,4 @@ C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\obj\Debug\net5.0\Cadastro.AP
 C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\obj\Debug\net5.0\Cadastro.API.pdb
 C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\obj\Debug\net5.0\Cadastro.API.genruntimeconfig.cache
 C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\obj\Debug\net5.0\ref\Cadastro.API.dll
-C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\obj\Debug\net5.0\refint\Cadastro.API.dll
+C:\Users\eduardo.lima\Desktop\formBack\Cadastro.API\bin\Debug\net5.0\ref\Cadastro.API.dll
