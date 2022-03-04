@@ -1,5 +1,3 @@
-using System;
-
 namespace Cadastro.API.Model
 {
     public class Usuario
