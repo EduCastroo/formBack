@@ -1,4 +1,15 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\Controllers",
+    "\\Data",
+    "\\Model",
+    "\\Properties",
+    "\\Repository",
+    "\\Service"
+  ],
+  "SelectedNode": "\\bin\\Debug\\net5.0",
   "PreviewInSolutionExplorer": false
 }
