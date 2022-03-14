@@ -8,5 +8,7 @@ namespace Cadastro.API.Data
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base (options) {}
 
         public DbSet<Usuario> Usuarios {get; set;}
+
+        public DbSet<Socio> Socios {get; set;}
     }
 }
